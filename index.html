@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>surveyform</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">The Hive Survey Form</h1>
+    <p id="description">Thank you for helping us improve the site</p>
+    <form id="survey-form">
+      <label id="name-label" >Enter your name: <input type="text" required id="name" placeholder="your name here"></input></label>
+      <label id="email-label">Enter your e-mail: <input required id="email" type="email" placeholder="youremail@gmail.com"></input></label>
+      <label id="number-label">Enter your number: <input id="number" type="number" min="8" max="16"  placeholder="+63"></input></label>
+      <select id="dropdown"> 
+        <option>Choose and option</option>
+        <option>Free</option>
+        <option>Premium</option>
+      </select>
+      <input type="radio" name="choices" value="1">Definitely</input>
+      <input type="radio" name="choices" value="2"> Not Sure</input>
+      <input type="checkbox" value="nice"></input>Yes Yes Yes
+      <input type="checkbox" value="juicey"></input>
+      Additional Comments<textarea></textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
